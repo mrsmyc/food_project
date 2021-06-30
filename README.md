@@ -21,8 +21,11 @@ DB_PASSWORD=)
 
 В корневой папке проекта, в терминале выполнить следующие команды:
 composer install;
+
 php artisan config:cache
+
 php artisan route:cache
+
 php artisan view:cache
 
 После настроек необходимо выполнить команду php artisan migrate
