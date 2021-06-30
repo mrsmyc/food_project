@@ -1,14 +1,23 @@
 Для развертывания приложения необходимо, чтобы были установлены следующие инструменты:
 Composer;
 Php вресии >= 7.3, а также расширения для него:
+
 BCMath PHP Extension
+
 Ctype PHP Extension
+
 Fileinfo PHP Extension
+
 JSON PHP Extension
+
 Mbstring PHP Extension
+
 OpenSSL PHP Extension
+
 PDO PHP Extension
+
 Tokenizer PHP Extension
+
 XML PHP Extension
 _______________________
 
@@ -20,7 +29,8 @@ DB_USERNAME=
 DB_PASSWORD=)
 
 В корневой папке проекта, в терминале выполнить следующие команды:
-composer install;
+
+composer install
 
 php artisan config:cache
 
