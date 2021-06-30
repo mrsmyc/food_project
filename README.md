@@ -12,7 +12,12 @@ Tokenizer PHP Extension
 XML PHP Extension
 _______________________
 
-В файле app/config/database.php прописать настройки (host,port,database,username,password ...) для базы данных
+.env.example переименовать на .env и внести изменения в конфигурации для базы данных (DB_CONNECTION=
+DB_HOST=
+DB_PORT=
+DB_DATABASE=
+DB_USERNAME=
+DB_PASSWORD=)
 
 В корневой папке проекта, в терминале выполнить следующие команды:
 composer install;
